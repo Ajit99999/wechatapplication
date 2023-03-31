@@ -1,0 +1,1 @@
+import{r as o,J as u,d as p,o as d,c as f,z as D}from"./index-7b8e7deb.js";const h=c=>{const[r,t]=o.useState(null);o.useState(null);async function l(a){try{const s=u(p,c);if(a){const n=d(s,f("id","==",a));let e={};(await D(n)).forEach(i=>{e={...i.data()}}),t(e)}}catch(s){t({}),console.log(s.message)}}return{usersDetails:r,getUserDetails:l}};export{h as u};
